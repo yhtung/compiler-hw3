@@ -163,6 +163,7 @@ void printGV(AST_NODE *root, char* fileName)
     fprintf(fp , "label = \"%s\"\n", fileName);
 
     int nodeCount = 0;
+
     printGVNode(fp, root, nodeCount);
 
     fprintf(fp , "}\n");
